@@ -1,0 +1,11 @@
+@import url(../intro/__list-item-value/intro__list-item-value.css);
+@import url(../intro/__list/intro__list.css);
+@import url(../intro/__text/intro__text.css);
+@import url(../intro/__title/intro__title.css);
+
+.intro {
+  padding-top: 92px;
+  margin: 0 auto;
+  max-width: 984px;
+  /* box-sizing: border-box; */
+}

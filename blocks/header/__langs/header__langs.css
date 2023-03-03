@@ -1,0 +1,13 @@
+.header__langs {
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.header__lang:last-child {
+  padding-right: 0;
+}
