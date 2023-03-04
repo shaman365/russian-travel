@@ -1,0 +1,12 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+  padding-top: 92px;
+  margin: 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+  box-sizing: border-box;
+  position: relative;
+}

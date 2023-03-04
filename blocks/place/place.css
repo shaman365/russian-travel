@@ -1,0 +1,16 @@
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__website-link/place__website-link.css);
+@import url(./__website-title/place__website-title.css);
+@import url(./__website/place__website.css);
+@import url(./__image/place__image.css);
+
+.place {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
