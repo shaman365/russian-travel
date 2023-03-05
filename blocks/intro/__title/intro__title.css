@@ -4,6 +4,13 @@
   font-weight: 900;
   line-height: 58px;
   color: #fff;
-  /* padding-left: 148px; */
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+  }
 }

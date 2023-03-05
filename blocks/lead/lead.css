@@ -1,13 +1,15 @@
-@import url(../lead/__title/lead__title.css);
-@import url(../lead/__subtitle/lead__subtitle.css);
-@import url(../lead/__image/lead__image.css);
-@import url(../lead/__image-caption/lead__image-caption.css);
-@import url(../lead/__figure/lead__figure.css);
-
 .lead {
+  max-width: 984px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+  }
 }

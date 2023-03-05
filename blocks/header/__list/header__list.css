@@ -6,6 +6,17 @@
   display: flex;
 
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 28px;
+
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__list {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 12px;
+  }
 }

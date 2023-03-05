@@ -5,3 +5,10 @@
   text-align: right;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer_copyright {
+    padding-top: 48px;
+    line-height: 14px;
+  }
+}

@@ -6,3 +6,15 @@
   letter-spacing: 1.5px;
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__image-caption {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image-caption {
+    padding-left: 16px;
+  }
+}

@@ -4,3 +4,10 @@
   list-style-type: none;
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__list {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}
